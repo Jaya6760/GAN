@@ -120,4 +120,3 @@ for i in range(generated_images.shape[0]):
     plt.subplot(2, 5, i+1)
     plt.imshow(generated_images[i].reshape(28, 28), cmap='gray_r')
 plt.show()
-
